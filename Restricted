@@ -1,0 +1,671 @@
+Package: bcmwl-kernel-source
+Priority: optional
+Section: restricted/admin
+Installed-Size: 2536
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alberto Milone <alberto.milone@canonical.com>
+Architecture: i386
+Source: bcmwl
+Version: 5.60.48.36+bdcom-0ubuntu5
+Depends: dkms, linux-libc-dev, libc6-dev, linux-headers-generic | linux-headers
+Filename: pool/restricted/b/bcmwl/bcmwl-kernel-source_5.60.48.36+bdcom-0ubuntu5_i386.deb
+Size: 895786
+MD5sum: 6b711ba074b35f57ff4cb4c453109709
+SHA1: 6256053d2fd068b1377bdac0c128fa6fd26176b4
+SHA256: e8a3a3523c7cbed470db554889c0e5eb25b42d2eaed949d0ef31e8293ba7bb27
+Description: Broadcom 802.11 Linux STA wireless driver source
+ These package contains Broadcom 802.11 Linux STA wireless driver
+ for use with Broadcom's BCM4311-, BCM4312-, BCM4321-, and
+ BCM4322-based hardware.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: fglrx
+Priority: extra
+Section: restricted/misc
+Installed-Size: 64048
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: fglrx-installer
+Version: 2:8.780-0ubuntu2
+Replaces: fglrx-driver, fglrx-kernel-source, libamdxvba1, xfree86-driver-fglrx, xorg-driver-fglrx
+Provides: xorg-driver-video, xserver-xorg-video-8
+Depends: libc6 (>= 2.3.6-6~), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libice6 (>= 1:1.0.0), libqtcore4 (>= 4:4.5.3), libqtgui4 (>= 4:4.5.3), libsm6, libstdc++6 (>= 4.1.1), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1, xserver-xorg-core, dkms, make, linux-libc-dev, linux-headers-generic | linux-headers
+Recommends: fglrx-amdcccle
+Conflicts: fglrx-driver, fglrx-kernel-source, libamdxvba1, xfree86-driver-fglrx, xorg-driver-fglrx
+Filename: pool/restricted/f/fglrx-installer/fglrx_8.780-0ubuntu2_i386.deb
+Size: 19942980
+MD5sum: 34e535984dc20f936c3949f048adf9a9
+SHA1: 878133833f9920961e1114e9b7093f5e7499db62
+SHA256: 3477130a95566c734f923b0768dbbb2d44f866396abb7653349714e88e5bfd51
+Description: Video driver for the ATI graphics accelerators
+ Video driver for the ATI Radeon and FireGL graphics accelerators.
+ .
+ This package provides 2D display drivers
+ and hardware accelerated OpenGL.
+Homepage: http://ati.amd.com/support/driver.html
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: fglrx-amdcccle
+Priority: optional
+Section: restricted/misc
+Installed-Size: 9320
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: fglrx-installer
+Version: 2:8.780-0ubuntu2
+Replaces: fglrx-control
+Depends: fglrx, libc6 (>= 2.3.6-6~), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libice6 (>= 1:1.0.0), libqtcore4 (>= 4:4.5.3), libqtgui4 (>= 4:4.5.3), libsm6, libstdc++6 (>= 4.1.1), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxinerama1, libxrandr2 (>= 4.3), libxrender1, libxxf86vm1
+Conflicts: fglrx-control, fglrx-control-qt2
+Filename: pool/restricted/f/fglrx-installer/fglrx-amdcccle_8.780-0ubuntu2_i386.deb
+Size: 5176584
+MD5sum: 6f4028058de911f3d78ac8234d8aae9f
+SHA1: 877e1600e8d5db32cd1fdd6a895b80781405c4b4
+SHA256: a21acc8b2f89a774a8120c3fe860c34e5b15c2d699fcabcf1e52d3e809c26074
+Description: Catalyst Control Center for the ATI graphics accelerators
+ Catalyst Control Center for the ATI Radeon and FireGL graphics accelerators.
+ .
+ This package provides the Catalyst Control Center, Linux Edition
+Homepage: http://ati.amd.com/support/driver.html
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: fglrx-dev
+Priority: extra
+Section: restricted/misc
+Installed-Size: 444
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: fglrx-installer
+Version: 2:8.780-0ubuntu2
+Replaces: fglrx-driver-dev, xfree86-driver-fglrx-dev, xorg-driver-fglrx-dev
+Depends: fglrx
+Conflicts: fglrx-driver-dev, xfree86-driver-fglrx-dev
+Filename: pool/restricted/f/fglrx-installer/fglrx-dev_8.780-0ubuntu2_i386.deb
+Size: 67010
+MD5sum: 0082edce0df84d9f3a45b5381ce898f8
+SHA1: a136153a05bc77297c559503c087cac6e4dfe7fd
+SHA256: 3b16e32c38111cafa29d3b97696359a46b7f12840fea20fdec4a65ea523ae0d3
+Description: Video driver for the ATI graphics accelerators (devel files)
+ Video driver for the ATI Radeon and FireGL graphics accelerators.
+ .
+ This package provides definitions for the GL and GLX extensions
+ and the FGLRXGAMMA extension interface library.
+Homepage: http://ati.amd.com/support/driver.html
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-173
+Priority: optional
+Section: restricted/misc
+Installed-Size: 32204
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-173
+Version: 173.14.28-0ubuntu1
+Provides: xorg-driver-video, xserver-xorg-video-8
+Depends: x11-common (>= 1:7.0.0), make, sed (>> 3.0), dkms, linux-libc-dev, libc6-dev, linux-headers-generic | linux-headers, patch, acpid, libc6 (>= 2.1), libx11-6, libxext6
+Recommends: nvidia-settings
+Filename: pool/restricted/n/nvidia-graphics-drivers-173/nvidia-173_173.14.28-0ubuntu1_i386.deb
+Size: 10655188
+MD5sum: 965a7321a6625375897a33ba9eaef348
+SHA1: da469274d0f2b2d03c9fdf60ec913d961e964b70
+SHA256: 2000b3f886e9abb890b5aca364c9423f37b91a80f5dda9fbda5159993d4f5d7b
+Description: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver.
+ .
+ GPUs ranging from GeForce series 5 to Geforce series 9 are supported.
+ .
+ See /usr/share/doc/nvidia-173/README.txt.gz for a complete list
+ of supported GPUs and PCIIDs
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-173-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 852
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-173
+Version: 173.14.28-0ubuntu1
+Depends: nvidia-173 (>= 173.14.28)
+Filename: pool/restricted/n/nvidia-graphics-drivers-173/nvidia-173-dev_173.14.28-0ubuntu1_i386.deb
+Size: 137838
+MD5sum: 905449c850e7a987d6170c3bdb6f491b
+SHA1: fa5900c70477ed78b235e7bb32f4ccba0e963afe
+SHA256: 68c3975c4bd51b22abfbb0926814d621ef560901efc20b01fb14f96edc64a4d9
+Description: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-173-kernel-source
+Priority: optional
+Section: restricted/misc
+Installed-Size: 48
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-173
+Version: 173.14.28-0ubuntu1
+Depends: nvidia-173
+Filename: pool/restricted/n/nvidia-graphics-drivers-173/nvidia-173-kernel-source_173.14.28-0ubuntu1_i386.deb
+Size: 4502
+MD5sum: 93f50da9dab2a64bbe7f19776d03c83c
+SHA1: aaba36b89887b594e8a42b64a0c648922c685360
+SHA256: 2a839b075d4ce2a3471bedea13a45481d078274de32f4a8db6be6e192551d0c4
+Description: Transitional package for nvidia-glx-173-kernel-source
+ This is a transitional package for nvidia-glx-173-kernel-source, and can be
+ safely removed after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-180-kernel-source
+Priority: optional
+Section: restricted/misc
+Installed-Size: 44
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-graphics-drivers-180
+Version: 185.18.36-0ubuntu9
+Depends: nvidia-185-kernel-source
+Filename: pool/restricted/n/nvidia-graphics-drivers-180/nvidia-180-kernel-source_185.18.36-0ubuntu9_i386.deb
+Size: 14994
+MD5sum: 2e7e322fdc175cc2f00e780e9d2748d4
+SHA1: c6a7c88e711b8dd62a2927b1828276d1ecfd68de
+SHA256: eb920f134768e608e8585242ce85958a377a8955379bf5e1e7056deb2e6d7bf6
+Description: Transitional package for nvidia-glx-185-kernel-source
+ This is a transitional package for nvidia-glx-185-kernel-source, and can be
+ safely removed after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-180-libvdpau
+Priority: optional
+Section: restricted/misc
+Installed-Size: 44
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-graphics-drivers-180
+Version: 185.18.36-0ubuntu9
+Depends: nvidia-185-libvdpau
+Filename: pool/restricted/n/nvidia-graphics-drivers-180/nvidia-180-libvdpau_185.18.36-0ubuntu9_i386.deb
+Size: 14984
+MD5sum: 2a3eb036a32ea4de5ccf389758581e12
+SHA1: f4986e39efaad805397e603fa306628eb64c59d6
+SHA256: af2ff35d6c2a3aa1b25802e91a62e71a06f6d989c0df878efa3745c4207e9ce1
+Description: Transitional package for nvidia-185-libvdpau
+ This is a transitional package for nvidia-185-libvdpau, and can be safely removed
+ after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-180-libvdpau-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 44
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-graphics-drivers-180
+Version: 185.18.36-0ubuntu9
+Depends: nvidia-185-libvdpau
+Filename: pool/restricted/n/nvidia-graphics-drivers-180/nvidia-180-libvdpau-dev_185.18.36-0ubuntu9_i386.deb
+Size: 14998
+MD5sum: eda5e2de31d606c9108213d43eb81bda
+SHA1: 7d0c977cb7ef8bba7a3da95a9978a3573104d2ad
+SHA256: 3a3cccceeee8ab18e1c5f06df29a3f19634421a4f800501e1d7183fca625c8b0
+Description: Transitional package for nvidia-185-libvdpau-dev
+ This is a transitional package for nvidia-185-libvdpau-dev, and can be safely removed
+ after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-185-kernel-source
+Priority: optional
+Section: restricted/misc
+Installed-Size: 48
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers
+Version: 260.19.06-0ubuntu1
+Depends: nvidia-current
+Filename: pool/restricted/n/nvidia-graphics-drivers/nvidia-185-kernel-source_260.19.06-0ubuntu1_i386.deb
+Size: 4502
+MD5sum: bd8c31c1cdddbad12c739d5a669279f8
+SHA1: 4d88ead27a026b8bf3da102b0454833de1085cbd
+SHA256: 3bcddbd8364fa55f467bfa544a78869ef3b51f7c7839fb131d78c39ed100135b
+Description: Transitional package for nvidia-glx-185-kernel-source
+ This is a transitional package for nvidia-glx-185-kernel-source, and can be
+ safely removed after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-185-libvdpau
+Priority: optional
+Section: restricted/misc
+Installed-Size: 48
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers
+Version: 260.19.06-0ubuntu1
+Depends: nvidia-current
+Filename: pool/restricted/n/nvidia-graphics-drivers/nvidia-185-libvdpau_260.19.06-0ubuntu1_i386.deb
+Size: 4498
+MD5sum: bda48c4972d099b94e19303046046e22
+SHA1: 2c9d28bbc9ea4b4fe842c2b1233cf157a5e269c6
+SHA256: 596f13d421cc26aa610778d18fa91ffa6bd01e5c5dbb07af4c60dadaafa1edc7
+Description: Transitional package for nvidia-185-libvdpau
+ This is a transitional package for nvidia-185-libvdpau, and can be safely removed
+ after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-185-libvdpau-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 48
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers
+Version: 260.19.06-0ubuntu1
+Depends: nvidia-current-dev
+Filename: pool/restricted/n/nvidia-graphics-drivers/nvidia-185-libvdpau-dev_260.19.06-0ubuntu1_i386.deb
+Size: 21508
+MD5sum: b0a2bf2b723ccb55f16b08cd13991e1a
+SHA1: b6cc06bd3acb73cb8c6673fcf56d9c460a01130c
+SHA256: 960b367b14fa2cd32aa596ffbf09d3fe71f226dfc5236251946824f28129e320
+Description: Transitional package for nvidia-185-libvdpau-dev
+ This is a transitional package for nvidia-185-libvdpau-dev, and can be safely
+ removed after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-96
+Priority: optional
+Section: restricted/misc
+Installed-Size: 21868
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-96
+Version: 96.43.18-0ubuntu1
+Provides: xserver-xorg-video-7
+Depends: x11-common (>= 1:7.0.0), make, sed (>> 3.0), dkms, linux-libc-dev, libc6-dev, linux-headers-generic | linux-headers, patch, acpid, libc6 (>= 2.1), libx11-6, libxext6
+Recommends: nvidia-settings
+Filename: pool/restricted/n/nvidia-graphics-drivers-96/nvidia-96_96.43.18-0ubuntu1_i386.deb
+Size: 7412882
+MD5sum: 42fd513669b098599526b8c878c76a4e
+SHA1: a6a40540e5ef58eec85036db4550e3af6928bbbd
+SHA256: 99cb92ca9ea16134b2fada5e0640e500c0127796948242f08937d746dc8c6e82
+Description: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver.
+ .
+ GPUs ranging from GeForce series 2 (except for GeForce2 GTS/GeForce2 Pro,
+ GeForce2 Ti and GeForce2 Ultra) to Geforce series 7 are supported.
+ .
+ See /usr/share/doc/nvidia-96/README.txt.gz for a complete list
+ of supported GPUs and PCIIDs
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-96-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 856
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-96
+Version: 96.43.18-0ubuntu1
+Depends: nvidia-96 (>= 96.43.18)
+Filename: pool/restricted/n/nvidia-graphics-drivers-96/nvidia-96-dev_96.43.18-0ubuntu1_i386.deb
+Size: 141458
+MD5sum: f9965c2410e0a7804db2e1f3459fe88f
+SHA1: c3202d5e581d1ab1777ba1a510977434b61b3c8f
+SHA256: 3dcbb8f81be0cb52cce71e3e693f85181b6eeb098ee495b1cc3bc23288de3b04
+Description: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-96-kernel-source
+Priority: optional
+Section: restricted/misc
+Installed-Size: 44
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-96
+Version: 96.43.18-0ubuntu1
+Depends: nvidia-96
+Filename: pool/restricted/n/nvidia-graphics-drivers-96/nvidia-96-kernel-source_96.43.18-0ubuntu1_i386.deb
+Size: 4506
+MD5sum: 8d73def2d979e0488e1c51978508ab6c
+SHA1: b337972cad8b9b599f62228ed2547eb6fa06337e
+SHA256: 2e500f81a3fa9cb013b00afe12fac54dd8a33c85694406f1d4f46239e1f2742e
+Description: Transitional package for nvidia-glx-96-kernel-source
+ This is a transitional package for nvidia-glx-96-kernel-source, and can be
+ safely removed after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-current
+Priority: optional
+Section: restricted/misc
+Installed-Size: 76364
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers
+Version: 260.19.06-0ubuntu1
+Provides: xorg-driver-video, xserver-xorg-video-8
+Depends: x11-common (>= 1:7.0.0), make, sed (>> 3.0), dkms, linux-libc-dev, libc6-dev, linux-headers-generic | linux-headers, patch, acpid, libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libx11-6, libxext6, libxv1, libxvmc1, zlib1g (>= 1:1.1.4)
+Recommends: nvidia-settings
+Filename: pool/restricted/n/nvidia-graphics-drivers/nvidia-current_260.19.06-0ubuntu1_i386.deb
+Size: 26306702
+MD5sum: 02d548a752b88de179ef72a8b46d85d4
+SHA1: 316afb03fc2cbd7227d85b67ed4d104c57869d03
+SHA256: b9f4f8e3f2b1ed167de47e61d7bd78e57acdc2990f83871cc76255a5ae7c0122
+Description: NVIDIA binary Xorg driver, kernel module and VDPAU library
+ The binary driver provide optimized hardware acceleration of OpenGL
+ applications via a direct-rendering X Server. AGP, PCIe, SLI, TV-out
+ and flat panel displays are also supported.
+ .
+ This package also includes the source for building the kernel module
+ required by the Xorg driver, and provides NVIDIA's implementation of
+ the Video Decode and presentation API. The latter enables acceleration
+ for NVIDIA 8 and later series cards for h264 video.
+ .
+ GPUs such as GeForce series 6 or newer are supported.
+ .
+ See /usr/share/doc/nvidia-current/README.txt.gz for a complete list
+ of supported GPUs and PCIIDs
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-current-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 1000
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers
+Version: 260.19.06-0ubuntu1
+Depends: nvidia-current (>= 260.19.06)
+Filename: pool/restricted/n/nvidia-graphics-drivers/nvidia-current-dev_260.19.06-0ubuntu1_i386.deb
+Size: 176312
+MD5sum: 80023561a7c34037260d471710670e3e
+SHA1: 8405a639b2087358bf829f9aa9dd7e4aa6e2caf2
+SHA256: 29f0418520b19a50fd47c035df56c0b38d81102ba147e342a260a1901a1a4923
+Description: NVIDIA binary Xorg driver development files
+ This package contains the NVIDIA binary Xorg driver
+ development files.
+ .
+ For more information on this source package visit NVIDIA's homepage
+ at http://www.nvidia.com/ .
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-glx-173
+Priority: optional
+Section: restricted/misc
+Installed-Size: 48
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-173
+Version: 173.14.28-0ubuntu1
+Depends: nvidia-173
+Filename: pool/restricted/n/nvidia-graphics-drivers-173/nvidia-glx-173_173.14.28-0ubuntu1_i386.deb
+Size: 4484
+MD5sum: b30fa80ff9a4154c60ce0ec236ae1ac9
+SHA1: 70b767e636b9420ad8b4555e31acd0f2691cbdda
+SHA256: a76bd42bef52dd9a9636abdce65f496fd1a5d65ae51a3978c6fef126f9553e20
+Description: Transitional package for nvidia-glx-173
+ This is a transitional package for nvidia-glx-173, and can be safely removed
+ after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-glx-173-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 48
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-173
+Version: 173.14.28-0ubuntu1
+Depends: nvidia-173-dev
+Filename: pool/restricted/n/nvidia-graphics-drivers-173/nvidia-glx-173-dev_173.14.28-0ubuntu1_i386.deb
+Size: 18360
+MD5sum: b592e908b8a6f8a25eb3b86669f3b588
+SHA1: 0f51804aaf0b4f51847f4a17902659e42313506f
+SHA256: e5903e6815e7d8450c2a2557dd5ef56c275051ce8ef8a74c3ff3b30c4b93be5e
+Description: Transitional package for nvidia-glx-173-dev
+ This is a transitional package for nvidia-glx-173-dev, and can be safely removed
+ after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-glx-180
+Priority: optional
+Section: restricted/misc
+Installed-Size: 44
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-graphics-drivers-180
+Version: 185.18.36-0ubuntu9
+Depends: nvidia-glx-185
+Filename: pool/restricted/n/nvidia-graphics-drivers-180/nvidia-glx-180_185.18.36-0ubuntu9_i386.deb
+Size: 14970
+MD5sum: cdd580416c1e4268fcaa79ad45b976e2
+SHA1: 8b7967030461e5ae4543e28f1a4b56a9e96205ae
+SHA256: c5526985546030babb7aa9af1f7be1473df479ee598338d9dd6d57f4bdbf4387
+Description: Transitional package for nvidia-glx-185
+ This is a transitional package for nvidia-glx-180, and can be safely removed
+ after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-glx-180-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 44
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: nvidia-graphics-drivers-180
+Version: 185.18.36-0ubuntu9
+Depends: nvidia-glx-185-dev
+Filename: pool/restricted/n/nvidia-graphics-drivers-180/nvidia-glx-180-dev_185.18.36-0ubuntu9_i386.deb
+Size: 14980
+MD5sum: 279720f13d1853900a4cf5a4a02fe694
+SHA1: 9e55b7fae89adb5b981e8a1229792dd72656ec48
+SHA256: 27dd35fdf36218c3247af080212041705d17ea331b856c7236a34d4e52e520c2
+Description: Transitional package for nvidia-glx-185-dev
+ This is a transitional package for nvidia-glx-185-dev, and can be safely removed
+ after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-glx-185
+Priority: optional
+Section: restricted/misc
+Installed-Size: 48
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers
+Version: 260.19.06-0ubuntu1
+Depends: nvidia-current
+Filename: pool/restricted/n/nvidia-graphics-drivers/nvidia-glx-185_260.19.06-0ubuntu1_i386.deb
+Size: 4492
+MD5sum: 5ba91e026e4dd4ba2b46927278b5ecd2
+SHA1: e608d2e64162d9cc284bf68810d3950f07d91026
+SHA256: 4ec9a548c1b75dda24e969258971683a4e41a404b09fbe6db0cc986135bede5e
+Description: Transitional package for nvidia-glx-185
+ This is a transitional package for nvidia-glx-185, and can be safely removed
+ after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-glx-185-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 48
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers
+Version: 260.19.06-0ubuntu1
+Depends: nvidia-current-dev
+Filename: pool/restricted/n/nvidia-graphics-drivers/nvidia-glx-185-dev_260.19.06-0ubuntu1_i386.deb
+Size: 21496
+MD5sum: 8aa363be962d5e188993a4d6e4aa2ced
+SHA1: fa1c0a5c86d239e488629bde4424035aba63283d
+SHA256: 5be97306c2f4cd0a7117b0f0aec2b6ff03baeb8ac72dafbdf25bff610d09ecb9
+Description: Transitional package for nvidia-glx-185-dev
+ This is a transitional package for nvidia-glx-185-dev, and can be safely removed
+ after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-glx-96
+Priority: optional
+Section: restricted/misc
+Installed-Size: 44
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-96
+Version: 96.43.18-0ubuntu1
+Depends: nvidia-96
+Filename: pool/restricted/n/nvidia-graphics-drivers-96/nvidia-glx-96_96.43.18-0ubuntu1_i386.deb
+Size: 4484
+MD5sum: f917078b0897e69bc4be71aadd7702bb
+SHA1: e6914b9814f7e31150813bf05b1c70c07d72d928
+SHA256: 80b81b769988f2a2ea21b6a414951d68514542356356ed91fe1a50e680b08730
+Description: Transitional package for nvidia-glx-96
+ This is a transitional package for nvidia-glx-96, and can be safely removed
+ after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-glx-96-dev
+Priority: optional
+Section: restricted/misc
+Installed-Size: 44
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: i386
+Source: nvidia-graphics-drivers-96
+Version: 96.43.18-0ubuntu1
+Depends: nvidia-96-dev
+Filename: pool/restricted/n/nvidia-graphics-drivers-96/nvidia-glx-96-dev_96.43.18-0ubuntu1_i386.deb
+Size: 17154
+MD5sum: 58d2b9677041bf204a22407ec53e687b
+SHA1: 4b4559b69c726c357ec23ce6930cf02853d49dfe
+SHA256: 8cb2f270ec07944a87022950411c4df4d29b3c3a4990a9d3a3964367285cf692
+Description: Transitional package for nvidia-glx-96-dev
+ This is a transitional package for nvidia-glx-96-dev, and can be safely removed
+ after the installation is complete.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: nvidia-kernel-common
+Priority: optional
+Section: restricted/x11
+Installed-Size: 80
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: all
+Version: 20080825+1ubuntu2
+Depends: module-init-tools
+Filename: pool/restricted/n/nvidia-kernel-common/nvidia-kernel-common_20080825+1ubuntu2_all.deb
+Size: 5526
+MD5sum: dfceceae0ce679f123ac49d847ced036
+SHA1: 78da7021c0a88fb99d0577e4e31836dbe011e012
+SHA256: 456382e58b9f19294d29ea7228ab03cfa92d82e2a1f401fc720d2067443535a6
+Description: NVIDIA binary kernel module common files
+ This package contains files shared between NVIDIA module
+ packages.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+
+Package: sl-modem-daemon
+Priority: optional
+Section: restricted/misc
+Installed-Size: 1188
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>
+Architecture: i386
+Source: sl-modem
+Version: 2.9.11~20100718-2
+Provides: slmodem
+Depends: debconf (>= 0.5) | debconf-2.0, libasound2 (>> 1.0.22), libc6 (>= 2.4), adduser
+Conflicts: sl-modem-modules
+Breaks: sl-modem-source (<< 2.9.11~20080817)
+Filename: pool/restricted/s/sl-modem/sl-modem-daemon_2.9.11~20100718-2_i386.deb
+Size: 519986
+MD5sum: d21ce544f70c9c7d6a3af452d3e4b7c3
+SHA1: 539a4e12643b9d6699918e5665d053407a841c1a
+SHA256: 06d61821c85a036bbfcd667f9eab880c9560e1718ef84d4330057b27f8edfa4f
+Description: SmartLink software modem daemon
+ The SmartLink modem daemon is the application part of the
+ driver for recent modems produced by Smart Link Ltd.
+ .
+ This package replaces (along with hardware access drivers) the old
+ driver generation (2.7.x) which consisted of kernel modules only.
+ .
+ It needs a kernel driver to access the hardware. This can be either
+ recent ALSA (shipped with a newer kernel (>=2.6.4) with ALSA support
+ and snd-intel8x0m module) which is sufficient for basic operation and
+ data/Internet connection, or the SmartLink kernel driver which is
+ provided by separate packages which you can build using the source from
+ the sl-modem-source package.
+Homepage: http://linmodems.technion.ac.il/packages/smartlink/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 18m
+

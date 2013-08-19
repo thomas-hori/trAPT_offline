@@ -1,0 +1,6 @@
+http://archive.ubuntu.com/ubuntu/pool/universe/s/stopmotion/stopmotion_0.6.2-1_i386.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/s/sdl-image1.2/libsdl-image1.2_1.2.10-2_i386.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/libt/libtar/libtar_1.2.11-6_i386.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/v/vgrabbj/vgrabbj_0.9.6-3.2_i386.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/f/ftplib/ftplib3_3.1-1-8_i386.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/d/dvgrab/dvgrab_3.5-1_i386.deb

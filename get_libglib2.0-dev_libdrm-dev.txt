@@ -1,0 +1,5 @@
+http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/libglib2.0-dev_2.26.0-0ubuntu1_i386.deb
+http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/libglib2.0-bin_2.26.0-0ubuntu1_i386.deb
+http://archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib1g-dev_1.2.3.4.dfsg-3ubuntu1_i386.deb
+http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm-dev_2.4.21-1ubuntu2_i386.deb
+http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libkms1_2.4.21-1ubuntu2_i386.deb
